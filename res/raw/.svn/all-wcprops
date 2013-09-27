@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/190404/trunk/src/android_webview/test/shell/res/raw
+END
+resource_icon.png
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/189808/trunk/src/android_webview/test/shell/res/raw/resource_icon.png
+END
+resource_file.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/190404/trunk/src/android_webview/test/shell/res/raw/resource_file.html
+END
+blank_html.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/190404/trunk/src/android_webview/test/shell/res/raw/blank_html.html
+END
