@@ -4,12 +4,12 @@
 	<classpathentry kind="src" path="gen"/>
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
-	<classpathentry kind="lib" path="/Users/chengkai/git/chromium_webview/libs/android_webview_java.jar"/>
-	<classpathentry kind="lib" path="/Users/chengkai/git/chromium_webview/libs/base_java.jar"/>
-	<classpathentry kind="lib" path="/Users/chengkai/git/chromium_webview/libs/content_java.jar"/>
-	<classpathentry kind="lib" path="/Users/chengkai/git/chromium_webview/libs/media_java.jar"/>
-	<classpathentry kind="lib" path="/Users/chengkai/git/chromium_webview/libs/navigation_interception_java.jar"/>
-	<classpathentry kind="lib" path="/Users/chengkai/git/chromium_webview/libs/net_java.jar"/>
-	<classpathentry kind="lib" path="/Users/chengkai/git/chromium_webview/libs/web_contents_delegate_android_java.jar"/>
+	<classpathentry kind="lib" path="libs/android_webview_java.jar"/>
+	<classpathentry kind="lib" path="libs/base_java.jar"/>
+	<classpathentry kind="lib" path="libs/content_java.jar"/>
+	<classpathentry kind="lib" path="libs/media_java.jar"/>
+	<classpathentry kind="lib" path="libs/navigation_interception_java.jar"/>
+	<classpathentry kind="lib" path="libs/net_java.jar"/>
+	<classpathentry kind="lib" path="libs/web_contents_delegate_android_java.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
