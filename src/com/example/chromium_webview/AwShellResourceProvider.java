@@ -9,7 +9,7 @@ import android.content.Context;
 import org.chromium.android_webview.AwResource;
 
 public class AwShellResourceProvider {
-    private static boolean sInitialized;
+    private static boolean sInitialized = false;
 
     public static void registerResources(Context context) {
         if (sInitialized) {
@@ -21,7 +21,7 @@ public class AwShellResourceProvider {
         AwResource.RAW_LOAD_ERROR = R.raw.blank_html;
         AwResource.RAW_NO_DOMAIN = R.raw.blank_html;
 
-        AwResource.STRING_DEFAULT_TEXT_ENCODING = R.string.string_default_text_encoding;
+        AwResource.STRING_DEFAULT_TEXT_ENCODING = R.string.hello_world;
 
         sInitialized = true;
     }
