@@ -22,7 +22,7 @@ import org.chromium.content.browser.LoadUrlParams;
 
 public class MainActivity extends Activity {
 	
-	private final static String INITIAL_URL = "http://3g.sina.com.cn";
+	private final static String INITIAL_URL = "http://www.baidu.com";
 	
     private EditText mUrlTextView;
     private ImageButton mPrevButton;
@@ -32,21 +32,8 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
 		mWebview = new MyWebView(this);
-		
-		mWebview.setLayoutParams(new FrameLayout.LayoutParams(
-	                LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT));
-
-		
-		LinearLayout contentContainer = (LinearLayout) findViewById(R.id.content_container);
-		contentContainer.addView(mWebview);
-	
-		mWebview.requestFocus();
-		
-        initializeUrlField();
-        initializeNavigationButtons();
-		
+		setContentView(mWebview);
 		mWebview.getAwContents().loadUrl(new LoadUrlParams(INITIAL_URL));
 	}
 
